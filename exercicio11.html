@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const notebook = {
+            marca: "Dell",
+            modelo: "Senai",
+            cor: "Preta",
+            valor: 8000,
+            estado: "Novo",
+            situacao: "Desligado",
+
+            usuario: {
+                nome: "Pedro",
+                idade: 17,
+                escola: "Senai",
+                situacao: "Trabalhando"
+            },
+
+            ligar(){
+                alert("Ligando...")
+                this.situacao = "Ligado"
+            },
+
+            desligar(){
+                alert("Desligadno...")
+                this.situacao = "Desligado"
+            },
+
+            reiniciar(){
+                alert("Reiniciando...")
+                this.situacao = "Ligado"
+            }
+
+        }
+
+    </script>
+</body>
+</html>
